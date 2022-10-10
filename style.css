@@ -3,8 +3,6 @@
     margin: 0;
     padding: 0;
     text-decoration: none;
-    /* ngilangin titik list */
-    font-family: 'Poppins', sans-serif;
     list-style: none;
     color: black;
 }
@@ -14,7 +12,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 6px 50px;
-    background-color: rgba(179, 132, 126, 0.699);
+    background-color: rgba(89, 255, 158, 0.685);
 }
 
 .logo {
@@ -30,6 +28,8 @@ ul li {
     margin: 0 10px;
     font-weight: 600;
     font-size: 24px;
+    background-color: #fff;
+    border-radius: 25px;
 }
 
 ul li a {
@@ -38,7 +38,7 @@ ul li a {
 }
 
 ul li a:hover {
-    background-color: rgb(68, 96, 164);
+    background-color: rgb(68, 164, 105);
     color: #fff;
 }
 
@@ -66,10 +66,9 @@ ul li a:hover {
     font-weight: bold;
 }
 
-.home-text span {
-    color: rgba(179, 132, 126, 0.699);
+.home-img img{
+    margin-right: 70px;
 }
-
 /* head -> about & contact me */
 h1 { 
     display: block;
@@ -90,10 +89,14 @@ h1 {
     margin-block-end: 3em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-    background-color: rgba(179, 132, 126, 0.699);
+    background-color: rgba(89, 255, 158, 0.685);
 }
 
 /* section contact */
+#contact p{
+    margin-left: 40%;
+}
+
 .sosmed{
-    padding: 10px 440px;
+    padding: 10px 500px;
 }
